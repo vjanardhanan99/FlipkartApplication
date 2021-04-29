@@ -48,6 +48,7 @@ public class HomePage extends BasePage{
     private By cartElement = By.xpath("//div[@class='CXW8mj']");
     private By emptyCart = By.xpath("//div[@class='_1LCJ1U']");
     private By invalidPincode = By.xpath("//div[@class='_1NQ_ER']");
+    private By priceAfterSortElement = By.xpath("(//div[@class='_30jeq3'])[1]");
 
     /**
      * This method searches for an item in the search bar of the HomePage
@@ -188,8 +189,9 @@ public class HomePage extends BasePage{
     public void verifyExpensiveMobile(String priceBeforeSorting) throws IOException {
         try {
 
-            String priceAfterSorting = locateElement(By.xpath("(//div[@class='_30jeq3'])[1]")).getText();
             int priceBefore = Integer.parseInt(priceBeforeSorting);
+            waitUsingCounterVariable();
+            String priceAfterSorting = locateElement(priceAfterSortElement).getText();
             int priceAfter = Integer.parseInt(priceAfterSorting);
             Assert.assertTrue(!(priceAfterSorting.equals(priceBeforeSorting)));
             Assert.assertTrue(priceAfter > priceBefore);
@@ -199,6 +201,21 @@ public class HomePage extends BasePage{
         }
     }
 
+    /**
+     * To add wait using a while loop
+     */
+    public void waitUsingCounterVariable()
+    {
+        int i =0;
+        while(i<5) {
+            try {
+                locateElement(priceAfterSortElement).getText();
+                break;
+            } catch(Exception e) {
+                i++;
+            }
+        }
+    }
     /**
      * This method enters an invalid pincode in the pincode field
      */

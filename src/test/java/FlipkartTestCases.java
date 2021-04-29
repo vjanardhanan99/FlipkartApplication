@@ -32,6 +32,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 1
      * Test method that verifies whether the search results displays only the items corresponding to the search
      * input iphone 12 pro max
      * @param searchKey = iphone 12 pro max
@@ -51,6 +52,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 2
      * Test method that verifies that for an invalid input in the search, it displays the No Results found Page
      * @param searchKey = 1457543465643
      * @throws IOException
@@ -69,6 +71,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 3
      * Test Method that verifies that when the AddToCart button is clicked, the product is present in the Cart
      * @param searchKey = iphone
      * @throws IOException
@@ -88,6 +91,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 4
      * Test method that verifies that when the Remove from cart button is clicked, the product is not present in the cart anymore
      * @param searchKey = iphone
      * @throws IOException
@@ -112,6 +116,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 5
      * Test method that verifies whether the most expensive mobile is displayed first after clicking on the Sort by Price High to Low
      *
      * @param searchKey = iphone
@@ -134,6 +139,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 6
      * Test method that verifies that the error message is displayed when an invalid pincode is entered
      * @param searchKey = iphone, pincode = 76975689
      * @throws IOException
@@ -153,6 +159,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 7
      * Test Method that verifies whether the products related to the filter are only displayed when a filter is applied
      * @param searchKey = T-shirts
      * @throws IOException
@@ -178,6 +185,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 8
      * Test method that verifies whether the Registered Address of flipkart is displayed at the bottom of the home page
      * @param expectedAddress
      * @throws IOException
@@ -197,6 +205,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 9
      * Test method that verifies all the category texts under the Top Offers link are displayed
      * @throws IOException
      */
@@ -214,6 +223,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 10
      * Test method that verifies if correct pincode is entered, then the Delivery by text is displayed
      * @param searchKey = iphone, pincode = 695008
      * @throws IOException
@@ -233,6 +243,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 11
      * Test method that verifies that if BuyNow button is clicked, user is asked to login or signup
      * @param searchKey = APPLE iPhone 11
      * @throws IOException
@@ -252,6 +263,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 12
      * Test method that verifies the footer text in the home page
      * @throws IOException
      */
@@ -271,6 +283,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 13
      * Test method that verifies that the more menu is visible in the home page and all the options in the menu are displayed
      * @throws IOException
      */
@@ -288,6 +301,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 14
      * Test method that verifies that the total amount in cart is accurate when one product is added  to cart
      * @param searchKey = clock
      * @throws IOException
@@ -307,6 +321,7 @@ public class FlipkartTestCases {
     }
 
     /**
+     * Scenario 15
      * Test method that verifies that the total amount in cart is accurate when multiple products are added to cart
      * @param searchKey = clock
      * @throws IOException
