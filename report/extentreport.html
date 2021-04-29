@@ -1,0 +1,1459 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ExtentReports</title>
+        <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+	    <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@6fbbd1c32fbc2463d026da5c6ce2e9eef0d29512/spark/css/spark-style.css" rel="stylesheet" />
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style type="text/css">
+
+</style></head>    <script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa -report standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+<div class="header navbar">
+    <div class="vheader">
+        <div class="nav-logo">
+          <a href="#">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">ExtentReports</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">Apr 29, 2021 11:16:08 am</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div><div class="side-nav">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>            <div class="vcontainer">
+                <div class="main-content">
+<div class="test-wrapper row test-view">
+	<div class="test-list">
+		<div class="test-list-tools">
+			<ul class="tools pull-left">
+				<li>
+					<a href="">
+					<span class="font-size-14">Tests</span>
+					</a>
+				</li>
+			</ul>
+			<ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
+						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
+						
+						
+						
+						
+						<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="test-list-wrapper scrollable">
+			<ul class="test-list-item">
+				<li class="test-item"  status="pass" test-id="1"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">footerTextValidation</p>
+							<p class="duration text-sm">0h 0m 0s+697ms</p>
+							<span class="datetime">11:16:12 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">footerTextValidation</h5>
+									<span class='badge badge-success'>04.29.2021 11:16:12</span>
+									<span class='badge badge-danger'>04.29.2021 11:16:12</span>
+									<span class='badge badge-default'>0h 0m 0s+697ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:12 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot7477.png' src='Screenshot7477.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="2"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">validateAddItemToCart</p>
+							<p class="duration text-sm">0h 0m 14s+545ms</p>
+							<span class="datetime">11:16:19 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">validateAddItemToCart</h5>
+									<span class='badge badge-success'>04.29.2021 11:16:19</span>
+									<span class='badge badge-danger'>04.29.2021 11:16:34</span>
+									<span class='badge badge-default'>0h 0m 14s+545ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:20 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:20 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot1905.png' src='Screenshot1905.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:22 am</td>
+				<td>
+						Selected value By.xpath: (//a[@class='s1Q9rs'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:33 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='_2KpZ6l _2U9uOA _3v1-ww']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:34 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2910.png' src='Screenshot2910.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:34 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot6139.png' src='Screenshot6139.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">validateMoreOption</p>
+							<p class="duration text-sm">0h 0m 1s+321ms</p>
+							<span class="datetime">11:16:37 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">validateMoreOption</h5>
+									<span class='badge badge-success'>04.29.2021 11:16:37</span>
+									<span class='badge badge-danger'>04.29.2021 11:16:38</span>
+									<span class='badge badge-default'>0h 0m 1s+321ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:37 am</td>
+				<td>
+						Selected value By.cssSelector: .exehdJ
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:38 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot3527.png' src='Screenshot3527.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:38 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot4528.png' src='Screenshot4528.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="4"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">validateRemoveItemFromCart</p>
+							<p class="duration text-sm">0h 0m 24s+306ms</p>
+							<span class="datetime">11:16:45 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">validateRemoveItemFromCart</h5>
+									<span class='badge badge-success'>04.29.2021 11:16:45</span>
+									<span class='badge badge-danger'>04.29.2021 11:17:09</span>
+									<span class='badge badge-default'>0h 0m 24s+306ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:45 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:45 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2820.png' src='Screenshot2820.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:46 am</td>
+				<td>
+						Selected value By.xpath: (//a[@class='s1Q9rs'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:47 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='_2KpZ6l _2U9uOA _3v1-ww']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:48 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2214.png' src='Screenshot2214.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:16:48 am</td>
+				<td>
+						Selected value By.xpath: (//div[@class='_3dsJAO'])[2]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:16:48 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot4167.png' src='Screenshot4167.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>11:17:09 am</td>
+				<td>
+						not verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot9221.png' src='Screenshot9221.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:09 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot9885.png' src='Screenshot9885.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="5"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">validateTotalAmountInCartForMultipleProducts</p>
+							<p class="duration text-sm">0h 0m 9s+444ms</p>
+							<span class="datetime">11:17:12 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">validateTotalAmountInCartForMultipleProducts</h5>
+									<span class='badge badge-success'>04.29.2021 11:17:12</span>
+									<span class='badge badge-danger'>04.29.2021 11:17:21</span>
+									<span class='badge badge-default'>0h 0m 9s+444ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:12 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:12 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot4799.png' src='Screenshot4799.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:13 am</td>
+				<td>
+						Selected value By.xpath: (//div[@class='CXW8mj _21_khk'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:14 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='_2KpZ6l _2U9uOA _3v1-ww']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:15 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot8421.png' src='Screenshot8421.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:18 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:18 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot4197.png' src='Screenshot4197.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:19 am</td>
+				<td>
+						Selected value By.xpath: (//div[@class='CXW8mj _21_khk'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:20 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='_2KpZ6l _2U9uOA _3v1-ww']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:21 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot3544.png' src='Screenshot3544.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>11:17:21 am</td>
+				<td>
+						not verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2294.png' src='Screenshot2294.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="6"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">validateTotalAmountInCartForSingleProduct</p>
+							<p class="duration text-sm">0h 0m 3s+956ms</p>
+							<span class="datetime">11:17:24 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">validateTotalAmountInCartForSingleProduct</h5>
+									<span class='badge badge-success'>04.29.2021 11:17:24</span>
+									<span class='badge badge-danger'>04.29.2021 11:17:28</span>
+									<span class='badge badge-default'>0h 0m 3s+956ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:24 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:25 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot6569.png' src='Screenshot6569.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:25 am</td>
+				<td>
+						Selected value By.xpath: (//div[@class='CXW8mj _21_khk'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:26 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='_2KpZ6l _2U9uOA _3v1-ww']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:27 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot9481.png' src='Screenshot9481.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:28 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot8420.png' src='Screenshot8420.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="7"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyBrandFilter</p>
+							<p class="duration text-sm">0h 0m 2s+433ms</p>
+							<span class="datetime">11:17:30 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifyBrandFilter</h5>
+									<span class='badge badge-success'>04.29.2021 11:17:30</span>
+									<span class='badge badge-danger'>04.29.2021 11:17:33</span>
+									<span class='badge badge-default'>0h 0m 2s+433ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:31 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:31 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot451.png' src='Screenshot451.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:32 am</td>
+				<td>
+						Selected value By.xpath: (//div[@class='_3879cV'])[8]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:32 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot821.png' src='Screenshot821.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:33 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot9568.png' src='Screenshot9568.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="8"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyInvalidPincode</p>
+							<p class="duration text-sm">0h 0m 3s+676ms</p>
+							<span class="datetime">11:17:40 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifyInvalidPincode</h5>
+									<span class='badge badge-success'>04.29.2021 11:17:40</span>
+									<span class='badge badge-danger'>04.29.2021 11:17:43</span>
+									<span class='badge badge-default'>0h 0m 3s+676ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:40 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:40 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot4226.png' src='Screenshot4226.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:41 am</td>
+				<td>
+						Selected value By.xpath: (//a[@class='s1Q9rs'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:43 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot3712.png' src='Screenshot3712.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:43 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot469.png' src='Screenshot469.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="9"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyLoginAfterClickingBuyNow</p>
+							<p class="duration text-sm">0h 0m 5s+151ms</p>
+							<span class="datetime">11:17:46 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifyLoginAfterClickingBuyNow</h5>
+									<span class='badge badge-success'>04.29.2021 11:17:46</span>
+									<span class='badge badge-danger'>04.29.2021 11:17:51</span>
+									<span class='badge badge-default'>0h 0m 5s+151ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:46 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:47 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot9.png' src='Screenshot9.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:47 am</td>
+				<td>
+						Selected value By.xpath: (//div[@class='_4rR01T'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:49 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='_2KpZ6l _2U9uOA ihZ75k _3AWRsL']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:51 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot7854.png' src='Screenshot7854.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:51 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot4838.png' src='Screenshot4838.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="fail" test-id="10"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar fail-bg">
+						<i class="fa fa-times text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyMostExpensiveMobile</p>
+							<p class="duration text-sm">0h 0m 1s+950ms</p>
+							<span class="datetime">11:17:54 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-fail">verifyMostExpensiveMobile</h5>
+									<span class='badge badge-success'>04.29.2021 11:17:54</span>
+									<span class='badge badge-danger'>04.29.2021 11:17:56</span>
+									<span class='badge badge-default'>0h 0m 1s+950ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:55 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:55 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot4859.png' src='Screenshot4859.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:17:55 am</td>
+				<td>
+						Selected value By.xpath: //div[contains(text(),'Price -- High to Low')]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:17:56 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2480.png' src='Screenshot2480.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>11:17:56 am</td>
+				<td>
+						not verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot3150.png' src='Screenshot3150.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="11"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyOffers</p>
+							<p class="duration text-sm">0h 0m 1s+159ms</p>
+							<span class="datetime">11:18:03 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifyOffers</h5>
+									<span class='badge badge-success'>04.29.2021 11:18:03</span>
+									<span class='badge badge-danger'>04.29.2021 11:18:04</span>
+									<span class='badge badge-default'>0h 0m 1s+159ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:18:03 am</td>
+				<td>
+						Selected value By.xpath: //div[contains(text(),'Top Offers')]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:03 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2771.png' src='Screenshot2771.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:04 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot5748.png' src='Screenshot5748.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="12"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyPincode</p>
+							<p class="duration text-sm">0h 0m 4s+439ms</p>
+							<span class="datetime">11:18:11 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifyPincode</h5>
+									<span class='badge badge-success'>04.29.2021 11:18:11</span>
+									<span class='badge badge-danger'>04.29.2021 11:18:15</span>
+									<span class='badge badge-default'>0h 0m 4s+439ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:18:11 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:11 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot1938.png' src='Screenshot1938.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:18:12 am</td>
+				<td>
+						Selected value By.xpath: (//a[@class='s1Q9rs'])[1]
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:14 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot7346.png' src='Screenshot7346.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:15 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot6049.png' src='Screenshot6049.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="13"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifyRegisteredAddress</p>
+							<p class="duration text-sm">0h 0m 0s+441ms</p>
+							<span class="datetime">11:18:18 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifyRegisteredAddress</h5>
+									<span class='badge badge-success'>04.29.2021 11:18:18</span>
+									<span class='badge badge-danger'>04.29.2021 11:18:19</span>
+									<span class='badge badge-default'>0h 0m 0s+441ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:19 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot3092.png' src='Screenshot3092.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="14"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifySearchItemNegative</p>
+							<p class="duration text-sm">0h 0m 1s+57ms</p>
+							<span class="datetime">11:18:25 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifySearchItemNegative</h5>
+									<span class='badge badge-success'>04.29.2021 11:18:25</span>
+									<span class='badge badge-danger'>04.29.2021 11:18:27</span>
+									<span class='badge badge-default'>0h 0m 1s+57ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:18:26 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:26 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot6792.png' src='Screenshot6792.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:27 am</td>
+				<td>
+						matching
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2843.png' src='Screenshot2843.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="15"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">verifySearchItemPositive</p>
+							<p class="duration text-sm">0h 0m 1s+174ms</p>
+							<span class="datetime">11:18:29 am</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">verifySearchItemPositive</h5>
+									<span class='badge badge-success'>04.29.2021 11:18:29</span>
+									<span class='badge badge-danger'>04.29.2021 11:18:30</span>
+									<span class='badge badge-default'>0h 0m 1s+174ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>11:18:30 am</td>
+				<td>
+						Selected value By.xpath: //button[@class='L0Z3Pu']
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:30 am</td>
+				<td>
+						verified
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot2368.png' src='Screenshot2368.png'>
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>11:18:30 am</td>
+				<td>
+						matching
+						<img class='r-img' onerror='this.style.display="none"' data-featherlight='Screenshot9192.png' src='Screenshot9192.png'>
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="test-content scrollable">
+		<div class="test-content-tools">
+			<ul>
+				<li>
+					<a class="back-to-test" href="javascript:void(0)">
+					<i class="fa fa-arrow-left"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="test-content-detail">
+			<div class="detail-body"></div>
+		</div>
+	</div>
+</div>                    <!-- dashboard -->
+<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='parent-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='80%'>
+						<b>12</b> tests passed
+						</small>
+					</div>
+					<div>
+						<small data-tooltip='20%'><b>3</b> tests failed, 
+						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Log events</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id='events-analysis' width='115' height='90'></canvas>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div><small data-tooltip='52.778%'><b>38</b> events passed</small></div>
+					<div>
+						<small data-tooltip='4.167%'><b>3</b> events failed, 
+						<b data-tooltip='43.056%'>31</b> others
+						</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light mt-3">15</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+							<span>80.00%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Start</h6>
+							<h4 class="font-weight-light mt-4">Apr 29, 2021 11:16:08 am</h4>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+					<div class="media justify-content-between">
+						<div class="card-header">
+							<h6 class="card-title">Duration</h6>
+							<h4 class="font-weight-light mt-4">0h 2m 22s+323ms</h4>
+							<span class="text-semibold font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 opacity-01"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Timeline</h6>
+				</div>
+				<div class="card-body">
+					<div class="">
+						<canvas id="timeline" height="120"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+</div>
+<script>
+	var statusGroup = {
+	    parentCount: 15,
+		passParent: 12,
+		failParent: 3,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 3,
+		childCount: 0,
+		passChild: 0,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+		eventsCount: 72,
+		passEvents: 38,
+		failEvents: 3,
+		fatalEvents: 0,
+		errorEvents: 0,
+		warningEvents: 0,
+		skipEvents: 0,
+		infoEvents: 31,
+		debugEvents: 0,
+		exceptionsEvents: 0
+	};
+</script>
+<script>
+	var timeline = {
+	        "footerTextValidation":0.697,"validateAddItemToCart":14.545,"validateMoreOption":1.321,"validateRemoveItemFromCart":24.306,"validateTotalAmountInCartForMultipleProducts":9.444,"validateTotalAmountInCartForSingleProduct":3.956,"verifyBrandFilter":2.433,"verifyInvalidPincode":3.676,"verifyLoginAfterClickingBuyNow":5.151,"verifyMostExpensiveMobile":1.95,"verifyOffers":1.159,"verifyPincode":4.439,"verifyRegisteredAddress":0.441,"verifySearchItemNegative":1.057,"verifySearchItemPositive":1.174
+	};
+</script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ac7abbc71b4bb073da00153a5a3fdbcfe0c95e2a/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+
+
+</script></body>
+</html>
